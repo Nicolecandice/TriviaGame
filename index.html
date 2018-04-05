@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+   <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+   <title>TriviaGame</title>
+		</head>
+		<div class="jumbotron">
+				<h1 class="game">Totally Trivial Trivia</h1>
+				<button type="button" class="start btn btn-primary" id="start" href="#" role="button">
+					start
+				</button>
+		 </div>
+
+		 <div id="timer">
+		 </div>
+<!--Brand Image Navbar-->
+<body>
+
+<!-- Modal -->
+
+<!-- Modal -->
+<div class="modal fade" id="resultsModal" tabindex="-1" role="dialog" aria-labelledby="resultsModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="resultsModalLabel">You are...</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+		<div id="timesupBlock">
+		 <br/>
+		</div>
+
+		 <div class tQuestions = "Questions">
+			 <ol>
+
+
+				<li>
+					Ariel has six sisters who are named Aquata, Andrina, Arista, Attina, Adella and Alana.
+				</li> 
+
+				<div class="btn-group btn-group-toggle" data-toggle="buttons">
+					  <label class="btn btn-success" data-answered="correct" data-toggle="modal" data-target="#resultsModal">
+    					<input type="radio" name="options" id="true" autocomplete="off">
+    					 True
+ 					 </label>
+ 					 <label class="btn btn-danger" data-answered="incorrect" data-toggle="modal" data-target="#resultsModal">
+    					<input type="radio" name="options" id="false" autocomplete="off">
+    					 False
+ 					 </label>
+				</div>
+				
+				 <li>The age order of the sisters is Aquata - 22, Andrina - 21, Arista - 20, Attina - 19, Adella - 18, Alana - 17 and Ariel - 16. </li> 
+				<div class="btn-group btn-group-toggle" data-toggle="buttons">
+					  <label class="btn btn-success" data-answered="correct" data-toggle="modal" data-target="#resultsModal">
+    					<input type="radio" name="options" id="true" autocomplete="off">
+    					 True
+ 					 </label>
+ 					 <label class="btn btn-danger" data-answered="incorrect" data-toggle="modal" data-target="#resultsModal">
+    					<input type="radio" name="options" id="false" autocomplete="off">
+    					 False
+ 					 </label>
+				</div>
+
+				 <li>Gabriella is one of Ariel's friends. She is a deaf mute mermaid with a pink tail and 
+				 matching shells who communicates with sign language. She appears in two episodes: "Wish Upon A Starfish" and "Ariel's Treasures".</li> 
+				 				<div class="btn-group btn-group-toggle" data-toggle="buttons">
+					  <label class="btn btn-success" data-answered="correct" data-toggle="modal" data-target="#resultsModal">
+    					<input type="radio" name="options" id="true" autocomplete="off">
+    					 True
+ 					 </label>
+ 					 <label class="btn btn-danger" data-answered="incorrect" data-toggle="modal" data-target="#resultsModal">
+    					<input type="radio" name="options" id="false" autocomplete="off">
+    					 False
+ 					 </label>
+				</div>
+
+
+				 <li> Triton is the Sea King and the father of Ariel and her sisters.</li> 
+				 				<div class="btn-group btn-group-toggle" data-toggle="buttons">
+					  <label class="btn btn-success" data-answered="correct" data-toggle="modal" data-target="#resultsModal">
+    					<input type="radio" name="options" id="true" autocomplete="off">
+    					 True
+ 					 </label>
+ 					 <label class="btn btn-danger" data-answered="incorrect" data-toggle="modal" data-target="#resultsModal">
+    					<input type="radio" name="options" id="false" autocomplete="off">
+    					 False
+ 					 </label>
+				</div>
+
+				 <li> Sebastian was originally an English-butler crab named Clarence?</li> 
+								<div class="btn-group btn-group-toggle" data-toggle="buttons">
+					  <label class="btn btn-success" data-answered="correct" data-toggle="modal" data-target="#resultsModal">
+    					<input type="radio" name="options" id="true" autocomplete="off">
+    					 True
+ 					 </label>
+ 					 <label class="btn btn-danger" data-answered="incorrect" data-toggle="modal" data-target="#resultsModal">
+    					<input type="radio" name="options" id="false" autocomplete="off">
+    					 False
+ 					 </label>
+				</div>
+
+				 <li>Sebastian is tasked by King Triton to follow Ariel and keep her out of trouble, and so witnesses Ariel saving Eric from drowning, which horrifies him as contact between the human world and mer
+					 world is forbidden.
+				 </li> 
+								<div class="btn-group btn-group-toggle" data-toggle="buttons">
+					  <label class="btn btn-success" data-answered="correct" data-toggle="modal" data-target="#resultsModal">
+    					<input type="radio" name="options" id="true" autocomplete="off">
+    					 True
+ 					 </label>
+ 					 <label class="btn btn-danger" data-answered="incorrect" data-toggle="modal" data-target="#resultsModal">
+    					<input type="radio" name="options" id="false" autocomplete="off">
+    					 False
+ 					 </label>
+				</div>
+
+				 <li>Sebastian accidentally lets this information slip to King Triton, who confronts Ariel and destroys her collection of human things in a rage.</li> 
+								<div class="btn-group btn-group-toggle" data-toggle="buttons">
+					  <label class="btn btn-success" data-answered="correct" data-toggle="modal" data-target="#resultsModal">
+    					<input type="radio" name="options" id="true" autocomplete="off">
+    					 True
+ 					 </label>
+ 					 <label class="btn btn-danger" data-answered="incorrect" data-toggle="modal" data-target="#resultsModal">
+    					<input type="radio" name="options" id="false" autocomplete="off">
+    					 False
+ 					 </label>
+				</div>
+
+				 <li> Feeling guilty for having betrayed Ariel's confidence, Sebastian follows Ariel when she visits Ursula the sea witch for help, and later helps her quest to win Prince Eric's affections.
+				 </li>
+								<div class="btn-group btn-group-toggle" data-toggle="buttons">
+					  <label class="btn btn-success" data-answered="correct" data-toggle="modal" data-target="#resultsModal">
+    					<input type="radio" name="options" id="true" autocomplete="off">
+    					 True
+ 					 </label>
+ 					 <label class="btn btn-danger" data-answered="incorrect" data-toggle="modal" data-target="#resultsModal">
+    					<input type="radio" name="options" id="false" autocomplete="off">
+    					 False
+ 					 </label>
+				</div>
+
+				 <li>Sebastian goes down to inform King Triton, and later becomes instrumental in helping Ariel and Prince Eric defeat Ursula.
+				 </li> 
+								<div class="btn-group btn-group-toggle" data-toggle="buttons">
+					  <label class="btn btn-success" data-answered="correct" data-toggle="modal" data-target="#resultsModal">
+    					<input type="radio" name="options" id="true" autocomplete="off">
+    					 True
+ 					 </label>
+ 					 <label class="btn btn-danger" data-answered="incorrect" data-toggle="modal" data-target="#resultsModal">
+    					<input type="radio" name="options" id="false" autocomplete="off">
+    					 False
+ 					 </label>
+				</div>
+
+				 <li> Ariel is the younger of the seven daughters of King Triton of the merfolk, and over the course of the original film becomes human and marries Prince Eric, a human.</li> 
+								<div class="btn-group btn-group-toggle" data-toggle="buttons">
+					  <label class="btn btn-success" data-answered="correct" data-toggle="modal" data-target="#resultsModal">
+    					<input type="radio" name="options" id="true" autocomplete="off">
+    					 True
+ 					 </label>
+ 					 <label class="btn btn-danger" data-answered="incorrect" data-toggle="modal" data-target="#resultsModal">
+    					<input type="radio" name="options" id="false" autocomplete="off">
+    					 False
+ 					 </label>
+				</div>
+
+				 </ol>
+
+		 </div>
+       
+        
+    </script>
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+   <script src="javaScript/app.js"></script>
+</body>
+</html>

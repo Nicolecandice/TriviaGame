@@ -1,0 +1,96 @@
+/* .overlay {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 200px;
+    width: 200px;
+    background: gray;
+  } */
+
+
+  body {
+    background-color:black; 
+  }
+  ol {
+color:white;
+  }
+  false {
+    color:red;
+  }
+  h3 {
+    color:white;
+  }
+  h1 {
+
+    color:white;
+
+  }
+  a {
+    color:white;
+  }
+.jumbotron{
+  background-image:url(../assets/images/ariel.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.modal-content{
+  background-color:#98dcf1;
+  background-image:url(../assets/images/ariel.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-weight: 800;
+  color: #fff;
+}
+.modal-body{
+    font-size: xx-large;
+  -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: black;
+}
+.modal-header{
+  border-bottom:none;
+}
+.modal-footer{
+  border-top:none;
+}
+.close{
+  color:#fff;
+}
+
+h1{
+   -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: #0062ff;
+}
+h1.game{
+    position: absolute;
+    top: 89px!important;
+    right: 40px;
+    color: #fff665;
+    font-size:45px;
+}
+#timer{
+    color: yellow;
+    top: 31px;
+    right: 30px;
+    display: block;
+    font-size: xx-large;
+    position: absolute;
+    font-family: 'Press Start 2P', cursive;
+}
+
+#timesupBlock{
+    display: none;
+    background: black;
+    position: absolute;
+    clear: both;
+    z-index: 999;
+    width: 100%;
+    height: 800px;
+}
+
+.tQuestions {
+    display: block;
+    background: black;
+    border: 1px solid red;
+}
